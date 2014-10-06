@@ -13,12 +13,12 @@ or check out this [demo](http://plnkr.co/edit/dTUUPhsVrCbeSIjZzqmx?p=preview).
 
 * Add `inline` as a dependency to your Angular module.
 
-```javascript
-  angular.module('yourModule', [
-    // ... other dependencies ...
-    'inline'
-  ]);
-```
+  ```javascript
+    angular.module('yourModule', [
+      // ... other dependencies ...
+      'inline'
+    ]);
+  ```
 
 * Use `ng-inline` in your templates.
 
@@ -42,22 +42,22 @@ melting your computer.
 
   The easiest way is to use a `<script />` tag:
 
-```html
-  <script type="text/ng-template" id="some-template-name">
-    It's a template!
-  </script>
-```
+  ```html
+    <script type="text/ng-template" id="some-template-name">
+      It's a template!
+    </script>
+  ```
 
 2. Inline the template elsewhere in your code.
 
   Note that we write the name of the template directly, and
   not as an Angular template expression (that is, not wrapped in quotes).
 
-```html
-  <div>
-    It's a container.
-    <div ng-inline="some-template-name"></div>
-  </div>
-```
+  ```html
+    <div>
+      It's a container.
+      <div ng-inline="some-template-name"></div>
+    </div>
+  ```
 
 3. That's it.
