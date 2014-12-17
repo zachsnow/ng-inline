@@ -12,10 +12,12 @@
           if(!templateName){
             throw new Error('ngInline: expected template name');
           }
-          if(!$templateCache.has(templateName)){
+
+          var template = $templateCache.get(templateName);
+          if(angular.isUndefined(template)){
             throw new Error('ngInline: unknown template ' + templateName);
           }
-          var template = $templateCache.get(templateName);
+
           element.html(template);
         }
       };
