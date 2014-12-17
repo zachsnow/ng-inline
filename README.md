@@ -38,7 +38,7 @@ melting your computer.
 
 ## Usage
 
-1. Add a template to the `$templateCache`.
+1. Add a template to `$templateCache`.
 
   The easiest way is to use a `<script />` tag:
 
@@ -59,5 +59,10 @@ melting your computer.
       <div ng-inline="some-template-name"></div>
     </div>
   ```
+
+  If you use a `<script />` tag to add the template to `$templateCache`,
+  the `<script /`> tag  will need to come *before* the usage of `ng-inline`.
+  Otherwise `ng-inline` will raise an error, as the template will not
+  be available in the cache at compile time.
 
 3. That's it.
