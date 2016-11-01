@@ -1,6 +1,6 @@
 # ng-inline
 
-Faster template inclusion in AngularJS for simple usecases; see <http://zachsnow.com/blog/2013/angularjs-faster-ng-include/>
+Faster template inclusion in AngularJS for simple usecases; see <http://zachsnow.com/blog/2014/angularjs-faster-ng-include/>
 or check out this [demo](http://plnkr.co/edit/dTUUPhsVrCbeSIjZzqmx?p=preview).
 
 ## Dependencies
