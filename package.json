@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "description": "Faster template inclusion in AngularJS for simple usecases.",
+  "version": "0.0.2",
+  "main": "index.js",
+  "repository": "zachsnow/ng-inline",
+  "keywords": [],
+  "author": "Zach Snow <z@zachsnow.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
