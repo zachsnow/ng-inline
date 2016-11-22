@@ -1,5 +1,5 @@
 {
-  "name": "src",
+  "name": "ng-inline",
   "description": "Faster template inclusion in AngularJS for simple usecases.",
   "version": "0.0.2",
   "main": "index.js",
@@ -8,6 +8,6 @@
   "author": "Zach Snow <z@zachsnow.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": ">=1.2.16"
   }
 }
